@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Connexion</title>
+        <link rel = "stylesheet" type = "text/css" href = "/labo1/style.css">
+        <link rel="icon" href="/Livre_enfant/favicon.ico/fleur.png">
+    </head>
+    
+    <body>
+
+        <nav>
+            <a href="/labo1/index.html">Accueil</a>
+            <span> ❁ </span>
+            <a href="/labo1/page2.html" target="_blank">Se connecter</a>
+            <span>❁</span>
+            <a href="/labo1/page3.html" target="_blank">Magasiner</a>
+        </nav>
+
+        <div class="box">
+            <div class="connexion">
+                <h1>Déjà client ?</h1>
+                    <form> 
+                        <div>
+                            <label for="email">Courriel :</label><br />
+                            <input type="email" id="email">
+                        </div>
+                        <div>
+                            <label for="password">Mot de passe :</label><br />
+                            <input type="password" id="password">  
+                        </div>
+                        <br />
+                        <input type="submit" value="Se connecter" class="btn">
+                    </form>
+
+            </div>
+
+            <div class="inscription">
+                <h1>Nouveau client</h1>
+                    <form>
+                        <div>
+                            <label for="name">Nom </label>
+                            <input type="text" id="name">
+                            <label for="firstname">Prénom </label>
+                            <input type="text" id="firstname">
+                        </div>
+                        <div>
+                            <label for="nb_str">Nº de rue </label>
+                            <input type="text" id="nb_str">
+                            <label for="str_name">Nom de rue</label>
+                            <input type="text" id="str_name">
+                        </div>
+                        <div>
+                            <label for="code">Code postal </label>
+                            <input type="text" id="code">
+                            <label for="city">Ville </label>
+                            <input type="text" id="city">
+                        </div>
+                        <div>
+                            <label for="prov">Province </label>
+                            <input type="text" id="prov">
+                            <label for="country">Pays </label>
+                            <input type="text" id="country">
+                        </div>
+                        <div><br />
+                            <label for="email">Courriel </label>
+                            <input type="email" id="email"><br />
+                            <label for="passwd">Choisir un mot de passe </label>
+                            <input type="password" id="passwd"><br />
+                            <label for="passwd2">Confirmer le mot de passe </label>
+                            <input type="password" id="passwd2">
+                        </div><br />
+                        <div>
+                            <input type="checkbox" id="infolettre">
+                            <label for="infolettre">Cocher pour recevoir l'infolettre</label>
+                        </div><br />
+                        <input type="submit" value="Créer le compte" class="btn">
+                    </form>   
+            </div>
+        </div>
+
+        
+    </body>
+
+</html>
