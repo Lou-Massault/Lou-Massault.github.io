@@ -1,7 +1,7 @@
 body {
 
     background-color: black;
-    background-image: url(/labo1/images/plantes.jpg);
+    background-image: url(/images/plantes.jpg);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(240, 224, 224);
 }
@@ -14,8 +14,6 @@ body {
     border: solid 5px rgba(67, 18, 87, 0.596);
     margin: 2% 25% 1% 25%;
     padding: 2% 5% 5% 5%;
-
-
 
 }
 
