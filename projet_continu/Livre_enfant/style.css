@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size:xx-large;
+}
+
+p {
+    font-size: larger;
+}
+
+#name{
+    color: beige;
+}
+
+.btn {
+    font-size: x-large;
+}
