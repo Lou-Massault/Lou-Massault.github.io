@@ -1,0 +1,164 @@
+body {
+  background-color: antiquewhite;
+  margin: 0% 20% 0% 20%;
+  border-right: black 1px dashed;
+  border-left: black 1px dashed;
+  border-bottom: black 1px dashed;
+  padding: 15px;
+}
+
+html {
+    font-family: sans-serif;
+  }
+
+nav {
+  margin: -16px;
+  text-align: center;
+  background-color: #9f2c8675;
+  display: block;
+  padding: 15px;
+  border-bottom: black 1px dashed;
+  font-size: large;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 40px;
+  }
+
+table {
+    border-collapse: collapse;
+    border: 5px solid rgb(17, 20, 20);
+    font-size: 1rem;
+    margin: auto;
+  }
+
+p.enonce {
+  border: 2px;
+  border-color: black;
+  border-style:dashed;
+  padding: 40px;
+  border-radius: 35%;
+  width: 50%;
+  margin: auto;
+}
+
+.menu {
+  border-collapse: separate;
+}
+
+.repas {
+  background-color: rgb(19, 19, 61);
+  color: rgb(233, 107, 49);
+  font-size: larger;
+}
+
+#dessert {
+  background-image: url(/images/background-rayé-rouge-remy-patisserie.jpg);
+  color: black;
+}
+
+
+#a{
+    list-style-type: square;
+    text-align:center
+  }
+
+
+#b{
+    background-color: rgba(98, 233, 159, 0.708);
+  }
+
+#bouton1{
+    padding: 4px 15px; 
+    background: rgb(78, 202, 227); 
+    color: rgb(9, 8, 5); 
+    border-radius: 10px 0 10px 0;
+    }
+
+#bouton1:hover {
+    background: rgb(238, 45, 58); 
+    }
+
+
+#bouton2{
+  background-color: rgb(243, 71, 71);
+  padding: 8px 8px;
+  border-radius: 45px 45px 45px 45px;
+  color:rgb(1, 0, 0);
+}
+
+#g{
+  font-size: xx-small;
+}
+
+#h{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#i{
+    font-size:medium;
+    list-style-type:armenian;
+}
+
+th, td {
+    border: 1px solid rgb(7, 5, 5);
+    padding: 20px 20px;
+  }
+
+#cours_a_venir {
+  list-style-type: armenian;
+}
+  
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> parent of be83e99 (rangement)
+#en_cours {
+  list-style-image: url(/html/favicon.ico/student.png.png);
+}
+
+#cours_termines {
+  list-style-type:georgian;
+}
+ 
+.my_form {
+  text-align: center;
+}
+
+.payment {
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-bottom: 15px;
+  border-width: 3px;
+  border-color: black;
+  border-style: double;
+}
+
+.btn {
+  background-image: url(/images_bouton/shiny.jpg);
+  width: auto;
+  height: 30px;
+  font-style: oblique;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px ;
+<<<<<<< HEAD
+=======
+=======
+ul.cours_a_venir {
+    list-style-type: hiragana;
+}
+
+ul.en_cours {
+  list-style-image: url("/images/ordi.jpg");
+}
+
+ul.cours_passes {
+  list-style-type: square;
+>>>>>>> Stashed changes
+>>>>>>> parent of be83e99 (rangement)
+}
+
+input[type="submit"].btn:hover {
+  background-image: url(/images_bouton/bouton_bleu.jpg); 
+}
