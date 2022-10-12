@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mes exercices</title>
+    <link rel = "stylesheet" type = "text/css" href = "/html/style.css">
+  </head>
+  <body>
+    <h1><u>Semaine 4 - Exercice 3</u></h1>
+    <h2><i>Partie 1</i></h2>
+      <p class="enonce">Créer un tableau de 3x3 et appliquer un différent style à chaque case. Votre tableau doit aussi avoir une bordure visible. Les choix de styles sont à votre discrétion. Vous pouvez aussi utiliser colgroup et col pour appliquer un style sur une section de tableau, mais les cases dans la sous-section doivent avoir leur propre style.         Cette fois-ci le style doit être appliqué par un document CSS.</p>
+      <br /><br />
+     
+        <table>
+            <tr>
+                <th id=>
+                  <ol id="a">
+                    <li>pour</li>
+                    <li>contre</li>
+                    <li>N/A</li>
+                  </ol>
+                </th>
+                <th id="b">texte</th>
+                <th id="c">
+                  <form>
+                    <input type="text">
+                      <button>Envoyer</button>
+                  </form>
+                </th>
+            </tr>
+            <tr>
+                <th id="d">
+                  <a href="http://www.google.com/" id="bouton1">Google</a>
+                </th>
+                <td id="e">
+                      <input type="text" placeholder="votre texte ici">
+                </td>
+    
+                <td id="f">
+                  <a href="http://google.com" id="bouton2">Go</a>
+                </td>
+            </tr>        
+            <tr>
+                <th id="g">Hello world</th>
+                <td id="h">Hello world</td>
+                <td>
+                  <ol id="i">
+                    <li>marcher tout droit</li>
+                    <li>prendre la 2eme a gauche</li>
+                    <li>puis la 1ere a droite</li>
+                    <li>félicitations, vous êtes arrivés</li>
+                  </ol>
+                </td>
+            </tr>   
+        </table> 
+     
+      <br />
+    <h2><i>Partie 2</i></h2>
+        <p class="enonce">Créer une ou des structures de votre choix (formulaire, tableau, etc.) et implémenter du style en utilisant CSS en suivant les règles suivantes:
+            Votre structure doit avoir un style par défaut. Vous devez aussi utiliser 3 classes et 2 ids. Un des id doit être appliqué à une structure faisant partie d'une classe. Assurez-vous que le style du id soit celui présenté à l'écran.</p>
+        <br /><br />
+        <table class="menu">
+            <colgroup>
+              <col style="background-color:rgba(243, 158, 31, 0.548)">
+              <col style="background-color: rgb(163, 163, 214)">
+              <col style="background-color:rgba(72, 163, 72, 0.582)">
+              <col style="background-color:rgba(233, 107, 49, 0.795)">
+            </colgroup>
+              <tr class="repas">
+                  <th>Déjeuners</th>
+                  <th>Dîners</th>
+                  <th>Soupers</th>
+                  <th id="dessert">Desserts</th>
+              </tr>
+              <tr>
+                  <td>
+                    <input type="radio" name="dej" id="toast">
+                    <label for="toast">Toasts beurre/confiture</label>
+                  </td>
+                  <td>
+                    <input type="radio" name="diner" id="salade">
+                    <label for="salade">Salade grecque</label>
+                  </td>
+                  <td>
+                    <input type="radio" name="souper" id="chili">
+                    <label for="chili">Chili con carne</label>
+                  </td>
+                  <td>
+                    <input type="radio" name="dessert" id="tarte">
+                    <label for="tarte">Tarte aux pommes</label>
+                  </td>
+              </tr>  
+              <tr>
+                  <td>
+                    <input type="radio" name="dej" id="oeufs">
+                    <label for="oeufs">Oeufs bénédictines</label>
+                  </td>
+                  <td>
+                    <input type="radio" name="diner" id="soupe">
+                    <label for="soupe">Soupe du jour</label>
+                  </td>
+                  <td>
+                    <input type="radio" name="souper" id="gratin">
+                    <label for="gratin">Gratin dauphinois</label>
+                  </td>
+                  <td>
+                    <input type="radio" name="dessert" id="cafe">
+                    <label for="cafe">Café gourmand</label>
+                  </td>
+              </tr>  
+      
+              <tr>
+                <td>
+                  <input type="radio" name="dej" id="yaourt">
+                  <label for="yaourt">Yaourt aux fruits rouges</label>
+                </td>
+                <td>
+                  <input type="radio" name="diner" id="sand">
+                  <label for="sand">Sandwich aux oeufs</label>
+                </td>
+                <td>
+                  <input type="radio" name="souper" id="pate">
+                  <label for="pate">Pâté chinois</label>
+                </td>
+                <td>
+                  <input type="radio" name="dessert" id="mousse">
+                  <label for="mousse">Mousse au chocolat</label>
+                </td>
+              </tr>  
+      
+              <tr>
+                <td>
+                  <input type="radio" name="dej" id="granola">
+                  <label for="granola">Granola maison</label>
+                </td>
+                <td>
+                  <input type="radio" name="diner" id="wrap">
+                  <label for="wrap">Wrap aux falafels</label>
+                </td>
+                <td>
+                  <input type="radio" name="souper" id="tartif">
+                  <label for="tartif">Tartiflette</label>
+                </td>
+                <td>
+                  <input type="radio" name="dessert" id="fruits">
+                  <label for="fruits">Salade de fruits</label>
+                </td>
+              </tr>  
+      
+              <tr>
+                <td>
+                  <input type="radio" name="dej" id="yaourt">
+                  <label for="yaourt">Yaourt aux fruits rouges</label>
+                </td>
+                <td>
+                  <input type="radio" name="diner" id="boudin">
+                  <label for="boudin">Boudin aux pommes</label>
+                </td>
+                <td>
+                  <input type="radio" name="souper" id="couscous">
+                  <label for="couscous">Couscous</label>
+                </td>
+                <td>
+                  <input type="radio" name="dessert" id="gat">
+                  <label for="gat">Gâteau au fromage</label>
+                </td>
+              </tr>  
+      
+          </table>
+          <br />
+      
+          <div class="my_form">
+            <p><b><u>Vos renseignements de livraison :</u></b></p><br />
+              <div>
+                <label for="nom">Nom : </label><input type="text" id="nom">       
+                <label for="prenom">Prénom : </label><input type="text" id="prenom">
+              </div><br />
+              <div>
+                <label for="app">Numéro d'appartement : </label><input type="text" id="app">       
+                <label for="rue">Nom de la rue : </label><input type="text" id="rue">
+              </div><br />
+              <div>
+                <label for="code">Code postal : </label><input type="text" id="code">
+                <label for="ville">Ville : </label><input type="text" id="ville">
+              </div><br />
+              <div>
+                <label for="region">Région : </label><input type="text" id="region">
+                <label for="pays">Pays : </label><input type="text" id="pays">
+              </div><br />
+              <input type="submit" value="Valider" class="btn"><br /><br />
+      
+            <div>
+              <label for="username">Nom d'utilisateur : </label><input type="text" id="username">
+            </div><br />
+      
+            <input type="submit" value="Valider" class="btn"><br /><br />
+      
+            <div class="payment">
+              <p><b><u>Choisir le mode de paiement : </u></b></p>
+                <input type="radio" name="mode" id="credit">
+                <label for="credit">Crédit (Visa/Mastercard)</label>
+                <input type="radio" name="mode" id="debit">
+                <label for="debit">Débit (Interac)</label>
+                <input type="radio" name="mode" id="ccad">
+                <label for="ccad">Carte cadeau</label>
+      
+              <br /><br />
+                <input type="submit" value="Envoyer la commande" class="btn">
+              </div>
+          </div>
+
+
+  </body>
+</html>
+

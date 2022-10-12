@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulaire</title>
+        <link rel="icon" href="favicon.ico/student.png.png">
+
+        <style>
+            .btn {
+                color:aliceblue; 
+                border:0ch;
+                background-color:rgb(62, 62, 236); 
+                border-radius: 60px 60px 60px 60px; 
+                padding: 40px 20px;   
+            }
+
+            .btn:hover {
+                background-color:brown;
+            }
+
+        </style>
+
+    </head>
+    
+    <body>
+        <form>
+            <ol>
+                <li>
+                    <label for="name">Nom :
+                    <input type="text" id="name">
+                    </label>
+                </li><br />
+
+                <li>
+                    <input type="radio" name="age" id="enfant">
+                    <label for="enfant">Enfant(0-11)</label>
+
+                    <input type="radio" name="age" id="ado">
+                    <label for="ado">Adolescent(12-17)</label>
+
+                    <input type="radio" name="age" id="adulte">
+                    <label for="adulte">Adulte(18+))</label>
+                </li><br />
+
+                <li>
+                    <label for="email">Votre courriel:</label>
+                    <input type="email" id="email">
+                </li><br />
+
+                <li>
+                    <label for="password">Mot de passe (8 caractères minimum)</label>
+                    <input type="password" id="password">         
+                </li><br />
+
+                <button type="submit" class="btn">Envoyer</button>
+            </ol>
+          </form>
+
+          <a href="tableau.html">Voir l'exercice 'Tableau'</a>
+
+    </body>

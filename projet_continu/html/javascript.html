@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Notes de cours - Javascript</title>
+        <link rel="icon" href="favicon.ico/student.png.png">
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <style>
+            form{
+                background-color: aliceblue;
+                display: flex;
+                padding: 20px;
+                border-radius: 20px;
+            }
+            div {
+                flex-grow: 1;
+            }
+            p {
+                font-size: large;
+            }
+            #btn {
+                margin-top: 30px;
+                padding: 10px;
+                background-color: rgba(165, 42, 42, 0.301);
+            }
+            #btn:hover {
+                background-color: antiquewhite;
+            }
+            #btn2 {
+                background-color: rgba(165, 42, 42, 0.301);
+            }
+            #btn2:hover {
+                background-color: antiquewhite;
+            }
+            #myIMC {
+                width: 40px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <b><a href = "index.html">Accueil</a></b> |
+            <b><a href="html.html">HTML</a></b> |
+            <b><a href="css.html">CSS</a></b> |
+            <b><a href="Web_API.html">Web API</a></b>
+        </nav>
+
+        <h2>Semaine 7 Exercice 2</h2>
+            <h3><u>La calculatrice d'IMC</u></h3>
+
+            <form onsubmit="return false;" id="form">
+                <div>
+                    <p><u>Système métrique</u></p>
+                    <label for="poids_kg">Poids</label>
+                    <input type="number" id="poids_kg"><span> kg</span><br /><br />
+                    <label for="taille_m">Taille</label>
+                    <input type="text" id="taille_m"><span> mètre(s)</span>
+                </div>
+                <div>
+                    <p><u>Système impérial</u></p>
+                    <label for="poids_livres">Poids</label>
+                    <input type="number" id="poids_livres"><span> livres</span><br /><br />
+                    <label for="taille_pieds">Taille</label>
+                    <input type="number" id="taille_pieds"><span> pieds</span>
+                    <input type="number" id="taille_pouces"><span> pouces</span><br /><br />
+                </div>
+                <div style="text-align:center">
+                    <button id="btn" type="text">Calculer mon IMC</button><br /><br />
+                    <input type="text" id="myIMC"><br /><br />
+                    <button id="btn2" type="text">Recommencer</button>
+                </div>
+            </form>
+            <br /><br />
+
+
+
+    <script type="text/javascript" src="/projet_continu/html/script.js"></script>
+    </body>
+</html>
