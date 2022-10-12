@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(174, 219, 219);
+    background-color: rgba(68, 92, 158, 0.548);
 }
 
 main {
@@ -7,13 +7,9 @@ main {
     margin-top: 3%;
 }
 
-#btn {
+#btn_brassage, #btn_affichage {
     margin-top: 50px;
     padding: 10px;
     font-size: larger;
     background-color: rgb(184, 147, 147);
-}
-
-#btn:hover {
-    background-color: rgba(123, 155, 155, 0.61);
 }
