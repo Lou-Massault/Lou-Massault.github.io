@@ -12,10 +12,6 @@ function affichageDeck() {
 
 window.addEventListener('load', affichageDeck)
 
-//console.log(liste_cartes)
-//console.log(half_deck1)
-//console.log(half_deck2)
-
 function brassage() {
     let len = liste_cartes.length
     let moitie = len/2
